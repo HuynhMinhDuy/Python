@@ -50,6 +50,6 @@ if __name__ == '__main__':
     print(l)      # Output: [1, 10, 4]
 
 
-    l.pop(2) # remove the element at index 2
+    removed_val = l.pop(2) # remove the element at index 2, this can to get value of removed element
     print(l)  #Output : [1, 10]
 
