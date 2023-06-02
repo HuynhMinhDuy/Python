@@ -15,3 +15,6 @@ second_name = "lovelace"
 full_name = f"{first_name} {second_name}"
 
 print(full_name) #output : ada lovelace
+
+message  = f"Hello {full_name.title()}"
+print(message) #output : Hello Ada Lovelace
